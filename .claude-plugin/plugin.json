@@ -1,0 +1,9 @@
+{
+  "name": "pablo-things3",
+  "version": "0.1.0",
+  "description": "Crea tareas en Things 3 mediante AppleScript. Recoge datos del usuario, interpreta fechas en lenguaje natural y ejecuta el script vía osascript.",
+  "author": {
+    "name": "Pablo"
+  },
+  "keywords": ["things3", "tareas", "productividad", "applescript", "macos"]
+}
