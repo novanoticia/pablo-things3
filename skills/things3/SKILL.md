@@ -8,10 +8,11 @@ description: >
   "completa la tarea X en Things", "marca como hecha", "tacha eso de Things",
   o cualquier variante que implique crear, listar, consultar o completar tareas en Things 3.
 compatibility: >
-  macOS con Things 3 instalado. Requiere un cliente capaz de ejecutar `osascript`
-  (Claude Code, o Cowork con el conector "Control your Mac"). Sin eso el skill
-  entrega el AppleScript para ejecutarlo a mano en Terminal, pero no puede actuar
-  por sí mismo. No funcional en ChatGPT, Perplexity ni Mistral.
+  macOS con Things 3 instalado. Requiere que el cliente pueda ejecutar `osascript`
+  en esa misma máquina (Claude Code, o Cowork con el conector "Control your Mac";
+  cualquier cliente con acceso equivalente al Mac sirve). Sin esa capacidad el
+  skill sigue siendo útil: entrega el AppleScript listo para pegar en Terminal,
+  pero no actúa por sí mismo.
 ---
 
 # Skill: Gestionar tareas en Things 3

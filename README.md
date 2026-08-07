@@ -8,11 +8,17 @@ Plugin para crear tareas en **Things 3** desde Claude Code y Cowork, usando Appl
 > manifiesto portable `plugin.json` en la raíz y el skill en `skills/things3/SKILL.md`,
 > así que cualquier cliente conformante lo descubre.
 >
-> **Sobre ChatGPT:** el formato es portable y ChatGPT cargará el skill, pero **no podrá
-> ejecutarlo**. Este plugin conduce Things 3 por AppleScript, lo que exige un Mac con la
-> app instalada y un cliente capaz de lanzar `osascript`. Fuera de ese entorno el skill
-> se carga y no puede hacer nada. Lo declara su campo `compatibility`, que es donde la
+> **Qué necesita el cliente para ejecutarlo.** El skill viaja a cualquier cliente
+> conformante, pero para *crear tareas de verdad* el cliente tiene que poder ejecutar
+> `osascript` en el mismo Mac donde está Things 3. Con esa capacidad funciona; sin ella
+> el skill sigue siendo útil —entrega el AppleScript listo para pegar en Terminal— pero
+> no actúa por sí mismo. Está declarado en el campo `compatibility`, que es donde la
 > especificación de Agent Skills manda poner los requisitos de entorno.
+>
+> Deliberadamente no lleva una lista de qué productos pueden y no pueden: las
+> capacidades de cada cliente cambian y una lista así envejece mal. Si no sabes si el
+> tuyo puede, pídele que ejecute `osascript -e 'tell application "Things3" to activate'`
+> y observa si Things 3 se abre.
 
 ## Instalación
 
