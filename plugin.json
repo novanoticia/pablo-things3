@@ -1,0 +1,19 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "pablo-things3",
+  "version": "0.2.0",
+  "description": "Gestiona tareas en Things 3 mediante AppleScript: crea, lista y completa tareas. Consulta pendientes por área o proyecto, y marca como hechas directamente.",
+  "author": {
+    "name": "Pablo"
+  },
+  "keywords": [
+    "things3",
+    "tareas",
+    "productividad",
+    "applescript",
+    "macos",
+    "listar",
+    "completar"
+  ],
+  "repository": "https://github.com/novanoticia/pablo-things3"
+}
