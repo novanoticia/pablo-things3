@@ -1,0 +1,25 @@
+{
+  "name": "pablo-things3",
+  "description": "Plugin para gestionar tareas en Things 3 desde Claude Code y Cowork.",
+  "owner": {
+    "name": "Pablo",
+    "url": "https://github.com/novanoticia"
+  },
+  "plugins": [
+    {
+      "name": "pablo-things3",
+      "source": "./",
+      "description": "Gestiona tareas en Things 3 mediante AppleScript: crea, lista y completa tareas. Consulta pendientes por área o proyecto, y marca como hechas directamente.",
+      "version": "0.2.0",
+      "homepage": "https://github.com/novanoticia/pablo-things3",
+      "category": "productivity",
+      "keywords": [
+        "things3",
+        "tareas",
+        "productividad",
+        "applescript",
+        "macos"
+      ]
+    }
+  ]
+}
