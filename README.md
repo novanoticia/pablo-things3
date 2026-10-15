@@ -1,5 +1,7 @@
 # pablo-things3
 
+[![Versión actual en main](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fnovanoticia%2Fpablo-things3%2Fmain%2Fplugin.json&query=%24.version&prefix=v&label=Versi%C3%B3n%20actual%20en%20main&color=blue)](https://github.com/novanoticia/pablo-things3/blob/main/plugin.json)
+
 Plugin para crear tareas en **Things 3** desde Claude Code y Cowork, usando AppleScript.
 
 > **Compatible con [Agent Plugins 1.0.0](https://agent-plugins.org/specification)** —
