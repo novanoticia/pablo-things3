@@ -1,7 +1,7 @@
 # pablo-things3
 
 [![Versión en main](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fnovanoticia%2Fpablo-things3%2Fmain%2Fplugin.json&query=%24.version&prefix=v&label=Versi%C3%B3n%20en%20main&color=blue)](https://github.com/novanoticia/pablo-things3/blob/main/plugin.json)
-**Última versión publicada:** [v0.2.0](https://github.com/novanoticia/pablo-things3/releases/tag/v0.2.0) · [Ver publicaciones](https://github.com/novanoticia/pablo-things3/releases)
+[![Última versión publicada](https://img.shields.io/github/v/release/novanoticia/pablo-things3?display_name=tag&label=%C3%9Altima%20versi%C3%B3n%20publicada&color=green)](https://github.com/novanoticia/pablo-things3/releases/latest)
 
 Plugin para crear tareas en **Things 3** desde Claude Code y Cowork, usando AppleScript.
 
